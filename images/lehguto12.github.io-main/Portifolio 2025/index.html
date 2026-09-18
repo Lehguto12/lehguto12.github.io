@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Programador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ 
+    <header id="header">
+        <div class="container">
+            <div class="logo-photo-container">
+                <img src="images/Perfil 2.jpg" alt="images/foto perfil.jpg" class="photo-small">
+                <h1 class="logo">Leandro Augusto Neris Lima</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </header>
+
+    
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Olá, eu sou o Leandro Augusto</h2>
+                <p>Desenvolvedor apaixonado por criar soluções inovadoras.</p>
+                <div class="hero-buttons">
+                    <a href="CV - Leandro Augusto .docx" class="btn btn-primary">Download CV</a>
+                    <a href="https://www.linkedin.com/in/leandro-augusto-lml1027" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/Lehguto12" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+            
+                <div id="particles-js"></div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá, meu nome é Leandro Augusto, tenho 23 anos e estou atualmente no terceiro semestre do curso de Análise e Desenvolvimento de Sistemas (ADS). Meu contato com a área de dados tem sido principalmente acadêmico, além de alguns projetos pessoais que desenvolvi. Estou sempre em busca de atualização e aprimoramento profissional.
+
+Recentemente, completei dois cursos de Power BI, o que me proporcionou uma boa base em visualização de dados. Além disso, estou aprofundando meus conhecimentos em bancos de dados e possuo um bom domínio do Excel. Também tenho uma compreensão básica de SQL e Python, e estou animado para expandir ainda mais minhas habilidades nessas linguagens.</p>
+                </div>
+                <div class="about-gallery">
+                    
+                    <div class="carousel">
+                        <img src="images/photo1.jpg" alt="Foto 1">
+                        <img src="images/photo2.jpg" alt="Foto 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="HTML">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Estruturação e organização de conteúdo para sites.</p>
+                </div>
+                <div class="skill-card" data-skill="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Estilização e design responsivo para páginas web.</p>
+                </div>
+                <div class="skill-card" data-skill="JavaScript">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Programação voltada para interatividade e aplicações web dinâmicas.</p>
+                </div>
+                <div class="skill-card" data-skill="Python">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Desenvolvimento de scripts, automações e análise de dados.</p>
+                </div>
+                <div class="skill-card" data-skill="Lógica de Programação">
+                    <i class="fas fa-brain"></i>    
+                    <h3>Lógica de Programação</h3>
+                    <p>Capacidade de estruturar soluções eficientes para problemas computacionais.</p>
+                </div>
+                <div class="skill-card" data-skill="SQL">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Manipulação e consulta de bancos de dados relacionais.</p>
+                </div>
+                <div class="skill-card" data-skill="Power BI">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Power BI</h3>
+                    <p>Criação de dashboards e visualizações interativas para análise de dados.</p>
+                   
+                </div>
+                <div class="skill-card" data-skill="Pacote Office">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Pacote Office</h3>
+                    <p>Domínio de Word, Excel e PowerPoint para relatórios, planilhas e apresentações.</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="Python">Python</button>
+                <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-tech="Python">
+                    <img src="images/project1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição detalhada.</p>
+                    <p>Tecnologias: Python</p>
+                    <a href="#" class="btn">Ver Demo</a>
+                    <a href="#" class="btn">Código Fonte</a>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/leandro-augusto-lml1027" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Lehguto12" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
